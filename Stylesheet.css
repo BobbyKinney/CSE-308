@@ -2,6 +2,10 @@
     
 }
 
+#loginFields {
+    margin: 0 auto;
+}
+
 .loginField {
-    
+    margin-bottom:5px;
 }

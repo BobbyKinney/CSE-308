@@ -1,15 +1,11 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>Testing Center - Log In</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel ="stylesheet" type="text/css" href="./Stylesheet.css" />
+        <script src="./js/TestingCenter.js"></script>
     </head>
     <body>
         <header id="banner"><img src="banner.gif" alt="Stony Brook Testing Center"></header>
@@ -21,7 +17,7 @@ and open the template in the editor.
                 Password:<br>
                 <input class="loginField" type="password" name="password">
                 <br>
-                <input class="loginField" type="button" name="login" value="Login">
+                <input class="loginField" type="button" name="login" value="Login" onclick="auth(document.getElementsByName('NetID')[0], document.getElementsByName('password')[0]);">
             </form>
         </div>
     </body>
